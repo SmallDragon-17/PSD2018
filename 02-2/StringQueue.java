@@ -4,7 +4,7 @@ import java.util.Deque;
 import java.util.ArrayDeque;
 
 
-class StringStack {
+class StringQueue {
   static int front = 0;
   static int end = 0;
   static int deCount = 0;
