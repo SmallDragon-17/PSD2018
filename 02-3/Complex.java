@@ -77,6 +77,6 @@ class Complex{
   }
 
   Complex con(){
-    return new Complex(real, -imag);
+    return new Complex(real,-1*imag);
   }
 }
