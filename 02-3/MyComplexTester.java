@@ -34,7 +34,7 @@ class MyComplexTester{
     System.out.println();
 
 
-    System.out.println("k = a* = " + k.toString());
+    System.out.println("k = a* = " + k.ToString());
 
   }
 }
