@@ -38,7 +38,7 @@ class Insertion{
       for(int l=0; l<a.length; l++)
         System.out.print(a[l] + " ");
       System.out.println();
-      System.out.println("パス" + i);
+      System.out.println("パス" + h);
 
     for(int i=h; i<n; i++){
       int j;
