@@ -18,7 +18,7 @@ class Selection{
 
     int[] x = new int[10];
 
-    System.out.println("単純交換ソート（バブルソート）");
+    System.out.println("単純交換ソート（セレクションソート）");
     System.out.println("要素数：" + x.length);
     generateRandomValues(x, maxValue);
     showArray(x);
