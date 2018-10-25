@@ -32,21 +32,16 @@ class Insertion{
   }
 
   static void insertionSort(int[] a){
-    int n = a.length;
-    for(int h=n/2; h>0; h/=2){
-
-      for(int l=0; l<a.length; l++)
-        System.out.print(a[l] + " ");
-      System.out.println();
-      System.out.println("パス" + h);
-
-    for(int i=h; i<n; i++){
+    for(int i=0; i<a.length; i++){
       int j;
       int tmp = a[i];
-      for(j=i-h; j>=0 && a[j]>tmp; j-=h)
-        a[j+h] = a[j];
-      a[j+h] = tmp;
-    }
+      for(j=i; j>=0 && a[j]>tmp; j--){
+        a[j+1] = a[j];
+        a[j+1] = tmp;
+      }
+      System.out.println();
+      System.out.println("パス" + i);
+      showArray(a);
     }
   }
 
