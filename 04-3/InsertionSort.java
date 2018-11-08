@@ -18,7 +18,7 @@ class Insertion{
 
     int[] x = new int[10];
 
-    System.out.println("単純挿入ソート");
+    System.out.println("単純交換ソート（インサーションソート）");
     System.out.println("要素数：" + x.length);
     generateRandomValues(x, maxValue);
     showArray(x);
